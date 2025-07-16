@@ -10,7 +10,8 @@
     "build": "npm run build:ui && npm run build:server",
     "build:ui": "npm run build --prefix frontend",
     "build:server": "npm run build --prefix backend",
-    "test": "npm run test --prefix server"
+    "test": "npm run test --prefix server",
+    "install:all": "npm install && cd ui && npm install && cd ../server && npm install"
   },
   "keywords": [],
   "author": "",

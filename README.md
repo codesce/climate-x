@@ -4,7 +4,7 @@
 
 To install all dependencies, run:
 
-    npm i
+    npm run install:all
 
 
 ## Start
@@ -15,10 +15,12 @@ To start the application (both ui and server), run the following command:
 
 This should start the UI on port 5173 and the backend on port 3001
 
+Access UI: http://localhost:5173
+
 
 ## Tests
 
-There are tests in the server side - made it easier to develop :D
+There are tests in the server module.
 
 To run these run:
 
