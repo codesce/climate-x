@@ -1,0 +1,33 @@
+html,
+body {
+  @media (prefers-color-scheme: dark) {
+    color-scheme: dark;
+  }
+
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+}
+
+button {
+    font-weight: bold;
+    border-radius: 2em;
+    padding: 0.5em 2em;
+    border: 1px solid;
+    cursor: pointer;
+
+    &.primary {
+      background-color: red;
+      border-color: red;
+      color: white;
+    }
+}
+
+input {
+  border-radius: 0.5em;
+  height: 2em;
+  border: 1px solid grey;
+
+  &[type=file] {
+    border: none;
+  }
+}

@@ -1,0 +1,27 @@
+.upload-assets-form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    width: 500px;
+
+    & fieldset {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 1rem;
+        border: none;
+    }
+
+    & .actions {
+        display: flex;
+        justify-content: center;
+
+        & button {
+            margin-left: 1em;
+        }
+    }
+
+    & .error-message {
+        color: red;
+        align-self: center;
+    }
+}

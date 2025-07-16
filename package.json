@@ -1,0 +1,25 @@
+{
+  "name": "climate-x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "all": "concurrently \"npm run dev:ui\" \"npm run dev:server\"",
+    "dev:ui": "npm run dev --prefix ui",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build:ui && npm run build:server",
+    "build:ui": "npm run build --prefix frontend",
+    "build:server": "npm run build --prefix backend",
+    "test": "npm run test --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "typescript": "^5.8.3"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.0"
+  }
+}

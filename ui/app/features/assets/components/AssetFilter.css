@@ -1,0 +1,9 @@
+.asset-filters {
+    > * {
+        padding-right: 10px;
+    }    
+
+    & input {
+        padding: 0 0.5em;
+    }
+}

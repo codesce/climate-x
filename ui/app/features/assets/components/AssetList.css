@@ -1,0 +1,26 @@
+.asset-list {
+    width: 100%;
+    border-collapse: collapse;
+
+    & thead tr, tbody tr {
+        text-align: left;
+        height: 2rem;
+    }
+
+    & thead tr th {
+        background-color: grey;
+        color: white;
+    }
+
+    & tbody tr:nth-child(even) td {
+        background-color: #f0f0f0;
+    }
+
+    & th, td {
+        padding: 0.8rem 1rem;
+    }
+
+    :last-child {
+        width: 15rem;
+    }
+}
